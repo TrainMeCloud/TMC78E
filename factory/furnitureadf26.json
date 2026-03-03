@@ -1,0 +1,9 @@
+{
+	"name": "furnitureadf26",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d8977b2a-ed69-4c06-ae35-77917598c7ba",
+		"tenantId": "c9515ae6-7419-4ae5-a700-4bb5f4afa7dc"
+	}
+}

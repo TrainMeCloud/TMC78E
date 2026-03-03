@@ -1,0 +1,39 @@
+{
+	"name": "AzureSqlTable11",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SNo",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Course",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Address",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PhoneNo",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "StudentDetails_Other"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
