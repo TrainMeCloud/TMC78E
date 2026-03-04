@@ -4,7 +4,7 @@
 		"description": "this pipeline extracts data from saleslt.address table and load that data into saleslt.address_destination table.",
 		"activities": [
 			{
-				"name": "Copy address data",
+				"name": "Copy address data_0403",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
